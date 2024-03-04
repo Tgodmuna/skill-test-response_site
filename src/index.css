@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.lists {
+  @apply capitalize hover:cursor-pointer hover:text-black underline;
+}
+.mainPage {
+  background-image: url(/public//Assets/images/LA.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section_1 {
+  background-image: url();
+;
+}
+.schedule_item p {
+  @apply text-xs text-slate-700 capitalize ;
+}
+.schedule li {
+  @apply w-full 
+}
+

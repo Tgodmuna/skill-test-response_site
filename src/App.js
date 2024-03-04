@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <div className="App">
-  
+    <div className='Ap max-w-[100%]'>
+      <MainPage />
     </div>
   );
 }
